@@ -4,7 +4,7 @@
   "description": "A cloud function to sync google datastore and firebase real time database.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --watch"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/vinaymavi/slides-prod-cloud-function/issues"
   },
-  "homepage": "https://github.com/vinaymavi/slides-prod-cloud-function#readme"
+  "homepage": "https://github.com/vinaymavi/slides-prod-cloud-function#readme",
+  "devDependencies": {
+    "jest": "^22.4.2"
+  }
 }

@@ -8,3 +8,17 @@ A cloud function to sync google datastore and firebase real time database.
 
 ## Cloud function HTTP URLs
 `https://us-central1-slides-prod.cloudfunctions.net/slidesprodget`
+
+## Command to run locally
+
+
+**Start** `functions-emulator start`
+
+**Stop** `functions-emulator stop`
+
+**Deploy** `functions-emulator deploy <function-name> --trigger-http`
+
+## CURL Requests
+
+
+
